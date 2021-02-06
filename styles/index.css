@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    width: 1000px;
+    overflow-x: scroll;
+    border: 2px solid #151616;
+    border-collapse: collapse;
+}
+
+.products-headers td{
+    padding: 15px 0;
+    
+    text-align: center;
+    font-weight: bold;
+}
+
+.products td{
+    border: 1px solid #151616;
+}
+
+.products-product td{
+    padding: 10px 10px;
+}
+
+.products-product-hide button{
+    width: 15px;
+    height: 15px;
+
+    background-color: transparent;
+    border: none;
+
+    background-image: url("../assets/visibility.png");
+    background-size: contain;
+    cursor: pointer;
+}
+
+.products-product-price, .products-product-amount, .products-product-id, .products-product-date, .products-product-hide{
+    text-align: center;
+}
+
+.control-panel td{
+    border: none;
+}
+
+.control-panel-header{
+    padding: 10px 0;
+
+    text-align: center;
+}
+
+.control-panel-buttons{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-panel-buttons button{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+
+    cursor: pointer;
+}
